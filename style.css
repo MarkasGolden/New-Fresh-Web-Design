@@ -1,0 +1,272 @@
+body {
+	background-color: #BDBDBD;
+	color:#000000 ;
+	font-size: 87.5%; /* Base font size is 14px */
+   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+   font-weight: 350;
+	line-height: 1.5;
+	text-align: left;
+
+}
+
+a	{
+	text-decoration: none;
+}
+
+a:link, a:visited	{
+	color: #0a00ff;
+}
+
+a:hover, a:active	{
+	/*background-color: #000000;*/
+	color: #ff0000;
+
+}
+
+.body {
+	margin: 0 auto;
+	width: 100%;
+	clear: both;
+
+}
+
+.mainHeader img {
+	width:  17%;
+	height: auto;
+	margin: 2% 0;
+}
+/*.navpics a img {
+    width: 40px;
+    height: 40px;
+    float: right;
+    display: inline-block;
+}*/
+.mainHeader nav	{
+    /*margin-top: 1%;*/
+    position: relative;
+	background-color: #F2F2F2;
+	height: 40px;
+	/*border: 2px solid;*/
+	/*border-top-left-radius: 3px;
+	-moz-border-top-left-radius: 3px;
+	-webkit-border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	-moz-border-top-right-radius: 3px;
+	-webkit-border-top-right-radius: 3px;*/
+
+}
+.mainHeader nav ul	{
+	list-style: none;
+	margin: 0 auto;
+
+}
+
+.mainHeader nav ul li {
+	float: left;
+	display: inline;
+}
+.mainHeader nav ul li img {
+    width: 30px;
+    height: auto;
+    /*float: right;*/
+    display: inline-block;
+    border: none;
+    padding: none;
+    margin-top: -5px;
+}
+/*.youtubeicon nav ul a:link {
+	float: right;
+	display: inline;
+}*/
+.mainHeader nav a:link, .mainHeader nav a:visited {
+	color: #000000;
+	display: inline-block;
+	padding: 10px 25px;
+	height: 20px;
+}
+
+.mainHeader nav a:hover, .mainHeader nav a:active, .mainHeader nav .active a:link, .mainHeader nav .active a:visited {
+	background-color: #ff0000;
+}
+
+.mainHeader nav ul li a {
+		/* This code below is to add rounded hover rectangle for nav bar. */
+
+}
+
+.mainContent {
+	/*width: 70%*/
+	line-height: 25px;
+	/*border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;*/
+	margin: 0 auto;
+	width: 65%;
+	clear: both;
+
+
+}
+/*.content {
+	width: 70%;
+}*/
+.topcontent {
+	background-color: #ffffff;
+	/*border: 2px solid;*/
+	/*border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;*/
+	padding: 3% 5%;
+	margin-top: 1%;
+	/*border-left: 1px solid;
+	border-right: 1px solid;*/
+
+}
+.rss {
+	float:left;
+	width: 70%;
+}
+.bottomcontent {
+	background-color: #ffffff;
+	/*border: 2px solid;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;*/
+	padding: 3% 5%;
+	margin-top: 2%;
+}
+
+.post-info {
+	font-style: italic;
+	color: #525b91;
+	font-size: 90%;
+}
+.top-sidebar {
+	width: 21%;
+	float: left;
+	background-color: #ffffff;
+	border: 2px solid;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	margin-left: 2%;
+	margin-top: 1.47%;
+	margin-bottom: 2%;
+	padding: 2% 3%;
+}
+
+.middle-sidebar {
+	width: 21%;
+	float: left;
+	background-color: #ffffff;
+	border: 2px solid;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	margin-left: 2%;
+	margin-bottom: 2%;
+	padding: 2% 3%;
+}
+
+.bottom-sidebar {
+	width: 21%;
+	float: left;
+	background-color: #ffffff;
+	border: 2px solid;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	margin-left: 2%;
+	margin-bottom: 2%;
+	padding: 2% 3%;
+}
+
+.mainFooter {
+	width: 100%;
+	height: 40px;
+	float: left;
+	/*border: 2px solid;
+	border-top-left-radius: 3px;
+	-moz-border-top-left-radius: 3px;
+	-webkit-border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	-moz-border-top-right-radius: 3px;
+	-webkit-border-top-right-radius: 3px;*/
+	background-color: #404040;
+	margin-top: 1%;
+	/*margin-bottom: 1%;*/
+}
+
+.mainFooter p {
+	width: 92%;
+	margin: 10px auto;
+	color: #ffffff;
+}
+/*This is to make the web page responsive. Note that some classes have been deleted compared to the normal desktop view.*/
+@media only screen and (min-width : 150px) and (max-width : 600px) {
+	.body {
+		clear: both;
+		margin: 0 auto;
+		width: 90%;
+		font-size: 90%;
+
+		}
+	.mainHeader img {
+		width:  100%;
+		height: auto;
+		margin-bottom: 3%;
+
+	}
+	.mainHeader nav	{
+		height: 160px;
+
+	}
+
+	.mainHeader nav ul	{
+		padding-left: 0;
+
+	}
+
+	.mainHeader nav ul li {
+		width: 100%;
+		text-align: center;
+	}
+
+	.mainHeader nav a:link, .mainHeader nav a:visited {
+		padding: 10px 25px;
+		height: 20px;
+		display: block;
+	}
+
+
+	.content {
+		width: 100%;
+		float: left;
+		margin-top: 2%;
+	}
+
+	.post-info {
+		display: none;
+	}
+
+	.topcontent {
+		background-color: #ffffff;
+		border-radius: 5px;
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+		padding: 3% 5%;
+		margin-top: 2%;
+		margin-bottom: 4%;
+
+	}
+	.bottomcontent {
+		margin-top: 3%;
+	}
+	/* You can combine multiple classes into one (1) line if the settings of these classes are exactly the same. */
+	.top-sidebar, .middle-sidebar, .bottom-sidebar {
+		width: 94%;
+		/* The margin code right below this is combining top left bottom right margins. (Consider going over it again to see how to do it right.) */
+		margin: 2% 0 2% 0;
+		padding: 2% 3%;
+	}
+
+}
